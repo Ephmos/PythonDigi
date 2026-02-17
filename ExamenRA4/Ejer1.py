@@ -6,6 +6,7 @@ def outputFixer(contador, vocal):
     else:
         return "La vocal " + vocal + " aparece " + str(contador) + " veces"
 
+# Este método cuenta vocales localizadas en la cadena
 def cuentaVocales(cadena):
     contA = 0
     contE = 0
